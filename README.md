@@ -1,4 +1,4 @@
-### Tic Tac Toe Game
+# Tic Tac Toe Game
 
 A simple, interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project is part of my learning journey in web development and is designed to provide a fun and engaging way to play Tic Tac Toe in the browser.
 
