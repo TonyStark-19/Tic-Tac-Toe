@@ -13,10 +13,13 @@ const winPatterns = [
 ];
 
 const resetGame = () => {
+    count = 0;
     turnO = true;
     enableBoxes();
     msgContainer.classList.add("hide");
 };
+
+var count = 0;
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
@@ -32,8 +35,16 @@ boxes.forEach((box) => {
         }
 
         box.disabled = true;
+        count++;
 
-        checkWinner();
+        if (checkWinner()) {
+            return;
+        }
+        if (count === 9) {
+            msg.innerText = `The Game is Drawn`;
+            msgContainer.classList.remove("hide");
+            disableBoxes();
+        }
 
     });
 });
@@ -66,9 +77,11 @@ const checkWinner = () => {
         if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
                 showWinner(pos1Val);
+                return true;
             }
         }
     }
+    return false;
 };
 
 newGameBtn.addEventListener("click", resetGame);
