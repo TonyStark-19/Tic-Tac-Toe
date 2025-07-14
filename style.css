@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     user-select: none;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -10,12 +13,17 @@ body {
     text-align: center;
 }
 
+/* heading */
+
 h1 {
     background: #081b31;
     color: #fff;
     height: 5rem;
     line-height: 5rem;
+    font-size: 35px;
 }
+
+/* container */
 
 .container {
     height: 70vh;
@@ -24,6 +32,8 @@ h1 {
     align-items: center;
     margin-top: 2rem;
 }
+
+/* game board */
 
 .game {
     height: 400px;
@@ -35,6 +45,8 @@ h1 {
     gap: 20px;
 }
 
+/* box */
+
 .box {
     height: 120px;
     width: 120px;
@@ -44,21 +56,34 @@ h1 {
     font-size: 8vmin;
     color: #b0413e;
     background: #ffffc7;
+    cursor: pointer;
 }
+
+/* color for moves */
 
 .color {
     color: green;
 }
 
-#reset-btn {
-    padding: 1rem;
+/* reset and new game button */
+
+#reset-btn,
+#new-btn {
+    padding: 0.8rem 1.5rem;
     font-size: 1.25rem;
     background: #191913;
     color: #fff;
     border-radius: 1rem;
     border: none;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
+
+#new-btn {
+    margin-bottom: 0;
+}
+
+/* result */
 
 .msg-container {
     height: 100vh;
@@ -69,19 +94,12 @@ h1 {
     gap: 3rem;
 }
 
-#new-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    background: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-}
-
 #msg {
     color: #ffffc7;
     font-size: 35px;
 }
+
+/* hide class */
 
 .hide {
     display: none;
@@ -90,6 +108,10 @@ h1 {
 /* Responsiveness */
 
 @media (max-width: 500px) {
+
+    h1 {
+        font-size: 30px;
+    }
 
     .box {
         height: 110px;
