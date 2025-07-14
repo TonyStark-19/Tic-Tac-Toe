@@ -1,36 +1,28 @@
 # 🎮 Tic Tac Toe Game
 
-A fun and simple implementation of the classic Tic Tac Toe game, built using HTML, CSS, and JavaScript. This project allows two players to play against each other in a quick, interactive browser game. The game is fully responsive and adapts to different screen sizes, providing a seamless experience across devices.
+A clean and fun implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. This two-player game lets users play against each other in a responsive and interactive browser interface. Whether you're on desktop or mobile, the experience is smooth and enjoyable!
 
 ---
 
-## 🌟 Live Demo
-
-The project is live and can be played here: [Tic Tac Toe Game](https://tonystark-19.github.io/Tic-Tac-Toe/)
-
----
-
-## 📸 Screenshot
+## 📸 Screenshots
 
 ![Screenshot of Tic Tac Toe Game](Screenshot/image.png)
 
 ---
 
-## 📚 Table of Contents
+## 🌐 Live Demo
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [How to Play](#how-to-play)
+The project is live and can be played here: [Tic Tac Toe Game](https://tonystark-19.github.io/Tic-Tac-Toe/)
 
 ---
 
 ## ✨ Features
 
-- Two-player mode (no AI, multiplayer only).
-- Fully responsive design that adapts to all screen sizes.
-- Displays the result of each game: Player X wins, Player O wins, or a tie.
-- User-friendly interface and smooth animations for a better experience.
-- Option to restart the game at any point.
+- **👥 Two-Player Mode** – Designed for Player X and Player O to compete.
+- **📱 Fully Responsive** – Optimized for desktop, tablet, and mobile screens.
+- **🏁 Game Results** – Displays results for each game: Player X wins, Player O wins, or a tie.
+- **🔄 Restart Option** – Reset the game at any point with a single click.
+- **🎨 User-Friendly UI** – Simple layout with smooth animations and clear feedback.
 
 ---
 
@@ -49,3 +41,25 @@ The project is live and can be played here: [Tic Tac Toe Game](https://tonystark
 3. The first player to get three in a row (horizontally, vertically, or diagonally) wins.
 4. If all cells are filled and no player has three in a row, the game ends in a tie.
 5. Click the restart button to play again.
+
+---
+
+## 🛠️ How to run on your own system
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TonyStark-19/Tic-Tac-Toe.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd Tic-Tac-Toe
+   ```
+
+3. Open `index.html` in your browser.
+
+---
+
+  Made with ❤️ by Aditya chandel
