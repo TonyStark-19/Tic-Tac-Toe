@@ -36,7 +36,7 @@ The project is live and can be played here: [Tic Tac Toe Game](https://tonystark
 
 ## 🎮 How to Play
 
-1. Visit the Game [here](https://yourusername.github.io/tic-tac-toe/).
+1. Visit the Game [here](https://tonystark-19.github.io/Tic-Tac-Toe/).
 2. Player X and Player O take turns selecting cells on the grid.
 3. The first player to get three in a row (horizontally, vertically, or diagonally) wins.
 4. If all cells are filled and no player has three in a row, the game ends in a tie.
