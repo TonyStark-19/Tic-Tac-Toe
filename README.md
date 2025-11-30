@@ -1,12 +1,13 @@
 # 🎮 Tic Tac Toe Game
 
-A clean and fun implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. This two-player game lets users play against each other in a responsive and interactive browser interface. Whether you're on desktop or mobile, the experience is smooth and enjoyable!
+A clean, fun, and modern implementation of the classic Tic Tac Toe game built with HTML, CSS, and JavaScript. <br />
+This browser-based two-player game is fully responsive, interactive, and perfect for quick matches—whether you're on desktop or mobile.
 
 ---
 
 ## 📸 Screenshots
 
-![Screenshot of Tic Tac Toe Game](Screenshot/image.png)
+![Screenshot of Tic Tac Toe Game](images/Screenshot/image.png)
 
 ---
 
@@ -18,11 +19,12 @@ The project is live and can be played here: [Tic Tac Toe Game](https://tonystark
 
 ## ✨ Features
 
-- **👥 Two-Player Mode** – Designed for Player X and Player O to compete.
-- **📱 Fully Responsive** – Optimized for desktop, tablet, and mobile screens.
-- **🏁 Game Results** – Displays results for each game: Player X wins, Player O wins, or a tie.
-- **🔄 Restart Option** – Reset the game at any point with a single click.
-- **🎨 User-Friendly UI** – Simple layout with smooth animations and clear feedback.
+- **👥 Two-Player Mode** – Player X vs Player O gameplay.
+- **📱 Fully Responsive** – Smooth experience across all screen sizes.
+- **🏆 Win / Lose / Tie Detection** – Highlights results clearly.
+- **🔄 Restart Button** – Quickly reset for a fresh game.
+- **🎨 Simple, Elegant UI** – Clean visuals with subtle animations.
+- **⚡ Fast & Lightweight** – No libraries, just pure HTML, CSS, and JS.
 
 ---
 
@@ -62,4 +64,11 @@ The project is live and can be played here: [Tic Tac Toe Game](https://tonystark
 
 ---
 
-  Made with ❤️ by Aditya chandel
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ star on GitHub — it motivates me to build more! <br />
+Feel free to suggest improvements or contribute.
+
+---
+
+Made with ❤️ by Aditya chandel
