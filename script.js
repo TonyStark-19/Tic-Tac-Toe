@@ -1,3 +1,4 @@
+// access items
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -22,6 +23,7 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 };
 
+// counter
 var count = 0;
 
 // moves
@@ -92,5 +94,6 @@ const checkWinner = () => {
     return false;
 };
 
+// new game and reset game
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
