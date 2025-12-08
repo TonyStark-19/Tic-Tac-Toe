@@ -1,5 +1,15 @@
 # 🎮 Tic Tac Toe Game
 
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/Tic-Tac-Toe?color=yellow)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/Tic-Tac-Toe?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/Tic-Tac-Toe?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/Tic-Tac-Toe?color=brightgreen)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-black?logo=github).
+
 A clean, fun, and modern implementation of the classic Tic Tac Toe game built with HTML, CSS, and JavaScript. <br />
 This browser-based two-player game is fully responsive, interactive, and perfect for quick matches—whether you're on desktop or mobile.
 
